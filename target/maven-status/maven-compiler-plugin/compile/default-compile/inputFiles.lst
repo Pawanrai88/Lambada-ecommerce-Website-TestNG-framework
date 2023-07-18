@@ -1,10 +1,8 @@
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\CheckoutPage.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\Utilities\CommonActions.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\ProductPage.java
-C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\BasePage\BasePage.java
-C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\ExtentListeners\ExtentManager.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\OrderPlacedPage.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\RegistrationPage.java
-C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\ExtentListeners\ExtentListeners.java
+C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\BasePagePackage\BasePage.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\HomePage.java
 C:\Users\12363\eclipse-workspace\LambdaTest\src\main\java\PageObjectPages\OrderConfirmationPage.java

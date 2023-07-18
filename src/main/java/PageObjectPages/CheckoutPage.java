@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.github.javafaker.Faker;
 
-import BasePage.BasePage;
+import BasePagePackage.BasePage;
 import Utilities.CommonActions;
 
 public class CheckoutPage extends BasePage {

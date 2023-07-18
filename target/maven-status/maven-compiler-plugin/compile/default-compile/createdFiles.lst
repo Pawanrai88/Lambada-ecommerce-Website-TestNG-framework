@@ -1,0 +1,8 @@
+Utilities\CommonActions.class
+PageObjectPages\RegistrationPage.class
+BasePagePackage\BasePage.class
+PageObjectPages\HomePage.class
+PageObjectPages\ProductPage.class
+PageObjectPages\OrderConfirmationPage.class
+PageObjectPages\CheckoutPage.class
+PageObjectPages\OrderPlacedPage.class

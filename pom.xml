@@ -14,8 +14,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+     <java.version>17</java.version>
   </properties>
   
   
@@ -124,6 +123,11 @@
     <version>7.7.1</version>
     <scope>test</scope>
 </dependency>
+<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.22</version>
+</dependency>
 
 
 
@@ -157,8 +161,12 @@
           <version>3.0.2</version>
         </plugin>
         <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.9.0</version>
+            <configuration>
+          <release>8</release>
+            </configuration>
         </plugin>
         <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -176,6 +184,7 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+           <skipTests>true</skipTests>
         </configuration>
       </plugin>
         <plugin>

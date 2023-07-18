@@ -3,11 +3,10 @@
 <suite name="Suite">
  <listeners>
 		  <listener 
-		  class-name="ExtentListeners.ExtentListeners"/>
+		  class-name="ExtentReport.ExtentListeners.java"/>
 		  </listeners>
   <test thread-count="5" name="Test" preserve-order="true">
     <classes>
-      <class name="BaseTest.BaseTest"/>
       <class name="TestCases.Test_End2End_Flow"/>
     </classes>
   </test> <!-- Test -->

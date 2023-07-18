@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.github.javafaker.Faker;
 
-import BasePage.BasePage;
+import BasePagePackage.BasePage;
 
 public class RegistrationPage extends BasePage {
   

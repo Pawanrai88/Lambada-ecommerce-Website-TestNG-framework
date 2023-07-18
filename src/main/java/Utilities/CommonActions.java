@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import BasePage.BasePage;
+import BasePagePackage.BasePage;
 
 public class CommonActions extends BasePage {
 	
