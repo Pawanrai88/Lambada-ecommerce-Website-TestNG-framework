@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
- <listeners>
-		  <listener 
-		  class-name="ExtentReport.ExtentListeners.java"/>
+	 <listeners>
+		  <listener class-name="ExtentReport.ExtentListeners"/>
 		  </listeners>
-  <test thread-count="5" name="Test" preserve-order="true">
+  <test thread-count="5" name="Test">
     <classes>
+      <class name="BaseTest.BaseTest"/>
       <class name="TestCases.Test_End2End_Flow"/>
     </classes>
   </test> <!-- Test -->
